@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<!-- TODO | Update favicon -->
+		<link rel="icon" href="%sveltekit.assets%/favicon.ico" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="Wishsort">
+		<meta name="description" content="Tool for sorting your (way too long) steam wishlist">
+		<title>Wishsort</title>
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
+
+<style>
+	:root {
+		--clr-background: #1b2838;
+		--clr-accent: #346795;
+		--clr-accent-2: #ffffff;
+		--clr-accent-important: #a25024;
+		--clr-element: #16202d;
+		--clr-element-hovered: #101822;
+		--clr-button: #2f495f;
+		--clr-button-hovered: #4983a7;	
+		--clr-text: #c6d4c0;
+		--clr-link: #43b5f4;
+		/* TODO | Translate to non px */
+		--rounding: 2px;
+	}
+	
+	body {
+		background-color: var(--clr-background);
+		height: 100vh;
+		min-width: 100%;
+		margin: 0;
+	}
+</style>
